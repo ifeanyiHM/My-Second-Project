@@ -1,0 +1,811 @@
+
+:root{
+    --primary-color: #002446;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather', 'Open Sans','Poppins', serif,sans-serif;
+}
+
+
+/* Header */
+
+.frontNav{
+    display: flex;
+    place-content: space-between;
+}
+
+.frontNav .logo{
+    display: flex;
+    align-items: center;
+    flex-grow: 6;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+
+.logo p{
+    font-size: small;
+    font-weight: bolder;
+}
+
+.frontNav .icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    border-left: 1px solid #e2dddd;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.icon .search{
+    width: 24px;
+    height: 24px;
+}
+
+.icon p{
+    display: none;
+}
+
+
+/* Navigation Menu */
+
+.nav{
+    display: flex;
+    place-content: space-between;
+    background: var(--primary-color);
+    color: #ffffff;
+    padding: 25px 30px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.nav img{
+    width: 15px;
+    height: 10px;
+    cursor: pointer;
+}
+
+nav .nav-disp{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    border-bottom: 1px solid #e2dddd;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.nav-disp img{
+    width: 15px;
+    height: 10px;
+}
+
+.hidden{
+    display: none;
+    cursor: pointer;
+}
+
+.port{
+    display: none;
+}
+
+.lore{
+    display: none;
+}
+
+.port a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.port p{
+    padding: 20px 30px;
+    border-bottom: 1px solid #e2dddd;
+}
+
+.stress .box a{
+    font-family: 'Merriweather';
+    font-size: 24px;
+    font-weight: 100;
+    text-decoration: underline;
+}
+
+.stress .box a:hover{
+    text-decoration: none;
+}
+
+.stress .box{
+    border: 0;
+    box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.09);
+    
+}
+
+.port .under{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 30px;
+    border-bottom: 1px solid #e2dddd;
+}
+
+.under p{
+    border: 0;
+}
+
+.under img{
+    width: 15px;
+    height: 10px;
+}
+
+.port .undered{
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    background: #e50914;
+}
+
+.undered img{
+    width: 25px;
+    height: 20px;
+}
+
+.undered p{
+    border: 0;
+    color: #ffffff;
+}
+
+/* Hidden section */
+.app{
+    display: none;
+}
+
+
+
+/* first section */
+
+.cont{
+    margin: 0 30px;
+}
+
+.cont img{
+    width: 24px;
+    height: 24px;
+    padding: 15px;
+    transition: all 0.45s ease;
+}
+
+.cont img:hover{
+    background: rgb(0, 0, 0, 0.5);
+}
+
+.gone{
+    margin-right: 30px;
+    background: #ffffff;
+    display: none;
+}
+
+.text{
+    padding: 10px 30px 0 30px;
+}
+
+.text h1{
+    font-family: 'Merriweather';
+    font-size: 40px;
+    font-weight: lighter;
+    padding-bottom: 20px;
+}
+
+
+/* second section */
+.list{
+    margin: 30px;
+    background-color: var(--primary-color);
+    padding: 20px;
+}
+
+.list div{
+    display: flex;
+    align-items: center;
+    padding: 7px;
+}
+
+.list img{
+    height:10px;
+    width:15px;
+    padding-right: 15px;
+}
+
+.list h3{
+    font-family: 'Merriweather';
+    color: #ffffff;
+    font-weight: 100;
+    padding: 7px;
+}
+
+.list a{
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.45s ease;
+
+}
+
+.list a:hover{
+    border-bottom: #ffffff 2px solid;
+}
+
+.third{
+    background-color: var(--primary-color);
+    margin: 80px 0 0 0;
+    padding: 6%;
+    position: relative;
+}
+
+.third img{
+    width: 94%;
+    height: auto;
+    position: absolute;
+    right: 0;
+    top: -2em;
+}
+
+.third p{
+    color: #ffffff;
+    font-family: 'Merriweather';
+    font-weight: 50;
+    font-size: 20px;
+    padding-top: 53%;
+    padding-right: 25%;
+    line-height: 30px;
+}
+
+/* Fourth section */
+.fourth{
+    padding: 30px;
+}
+
+.fourth h1{
+    font-family: 'Merriweather';
+    font-size: 30px;
+    font-weight: lighter;
+    padding-top: 20px;
+}
+
+.fourth p{
+    margin: 20px 0;
+}
+
+.fourth .only{
+    font-family: 'Merriweather';
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.fourth a{
+    color: #000;
+    text-decoration: none;
+    border-bottom: #000 2px solid;
+}
+
+.fourth a:hover{
+    border: 0;
+}
+
+.fourth ul li{
+    margin: 20px 30px;
+}
+
+.fourth div ul:nth-child(4) li{
+    margin: 5px 30px;
+}
+
+/* Fifth section */
+.jav{
+    padding: 10px 30px;
+    background: var(--primary-color);
+    border-bottom: 1px solid #a8a1a128;
+}
+
+.jav p{
+    color: #ffffff;
+    font-family: 'Merriweather';
+    font-size: 1.2em;
+    
+}
+
+.jav a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.jav a:hover{
+    border-bottom: #ffffff 2px solid;
+}
+
+.jav img{
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+
+.jav .disp{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.disp .eye{
+    position: absolute;
+    right: 2em;
+    display: none;
+}
+
+.jav .portal{
+    display: none;
+}
+
+/* Footer */
+
+.javv{
+    padding: 20px 30px;
+    background: var(--primary-color);
+    border-bottom: 1px solid #a8a1a128;
+}
+
+.javv a{
+    color: #e2dddd;
+    text-decoration: none;
+    font-size: .8em;
+}
+
+.javv a:hover{
+    border-bottom: #ffffff 2px solid;
+}
+
+.foot{
+    padding: 20px 0;
+    background: var(--primary-color);
+    text-align: center;
+}
+
+.foot img{
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    transition: all 0.45s ease;
+}
+
+.foot img:hover{
+    background: rgb(255, 255, 255);
+}
+
+
+@media screen and (min-width: 700px) {
+
+    
+    .frontNav{
+        padding: 20px 35px;
+    }
+
+    .frontNav .logo{
+        width: 5em; 
+    }
+    
+    .logo p{
+        font-size: 20px;
+        font-weight: 1500;
+    }
+    
+    .frontNav .icon{
+        width: 7em;
+        border: none;
+        padding: 0;
+    }
+    
+    .icon .search{
+        width: 17px;
+        height: 17px;
+        padding-right: 4px;
+    }
+
+    .icon p{
+        display: block;
+        font-size: 15px;
+        font-weight: bolder;
+        color: var(--primary-color);
+    }
+
+    .nav{
+        padding-left: 60px;
+    }
+
+    nav .nav-disp{
+        padding: 20px 60px;
+    }
+
+    .app{
+        display: inline-flex;
+        align-items: center;
+        background: #f1f1f1;
+        margin: 0 0 60px 60px;
+        padding: 18px 60px;
+    }
+
+    .app a{
+        color: #000;
+        text-decoration: none;
+    }
+
+    .app a:hover{
+        border-bottom: #000 2px solid;
+    }
+
+    .app img{
+        height: 12px;
+        width: 12px;
+        padding-left: 10px;
+    }
+
+    .cont{
+        margin: 0 60px;
+    }
+
+    .text{
+        padding: 30px 60px;
+    }
+    
+    .list{
+        margin: 30px 60px;
+    }
+
+    .third{
+        margin: 120px 60px 0 60px;
+    }
+
+    .third img{
+        width: 92%;
+        top: -4em;
+    }
+
+    .third p{
+        padding-top: 48%;
+        padding-right: 25%;
+    }
+
+    .fourth{
+        padding: 60px;
+    }
+
+    .jav{
+        padding: 20px 60px;
+    }
+
+    .jav .disp{
+        padding: 30px 0;
+    }
+
+    .javv{
+        padding: 20px 60px;
+    }
+
+    .javv a{
+        display: block;
+        padding-bottom: 5px;
+        font-size: .9em;
+    }
+
+    .javv a:hover{
+        border: 0;
+        text-decoration: underline;
+    }
+}
+
+@media screen and (min-width: 1000px){
+    
+    .grid{
+        display: flex;
+        padding: 0 60px 100px 60px;
+    }
+
+    .cont{
+        margin: 0;
+        width: 40%;
+    }
+    
+    .text{
+        width: 60%;
+        padding: 0;
+    }
+
+    .text h1{
+        font-size: 50px;
+    }
+
+    .text p{
+        font-size: 20px;
+    }
+
+    .list{
+        display: flex;
+        padding: 50px;
+    }
+
+    .list h3{
+        width: 30%;
+        font-size: 23px;
+        padding-top: 20px;
+    }
+
+    .list nav{
+        width: 70%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    .list div{
+        padding: 20px 0;
+    }
+
+    .third{
+        margin-top: 140px;
+        margin-right: 125px;
+        padding: 5% 5% 9% 5%;
+    }
+
+    .third img{
+        width: 68%;
+        top: -4em;
+        right: -4em;
+        box-shadow: 0 60px #002140;
+    }
+
+    .third p{
+        padding-top: 0;
+        padding-right: 70%;
+        line-height: 35px;
+        font-size: 25px;
+    }
+
+    .fourth{
+        margin-left: 35%;
+    }
+
+    .fourth h1{
+        font-size: 38px;
+    }
+
+    .fourth p{
+        font-size: 20px;
+        margin: 30px 0;
+    }
+
+    .fourth a{
+        font-size: 20px;
+    }
+
+    .fourth .only{
+        font-size: 25px;
+        margin: 30px 0;
+    }
+
+    .fourth ul li{
+        margin: 30px 40px;
+        font-size: 20px;
+    }
+    
+    .fourth div ul:nth-child(4) li{
+        margin: 10px 40px;
+    }
+    
+    .jav img{
+        display: none;
+    }
+    
+    .jav .portal{
+        display: block;
+    }
+
+    .jav{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-column-gap: 60px;
+    }
+
+    .jav a{
+        line-height: 35px;
+        font-weight: 300;
+    }
+
+    .jav a:hover{
+        border: 0;
+        text-decoration: underline;
+    }
+
+    .jav .mike{
+        border-left: 1px solid #a8a1a128;
+        padding: 30px 0 0 20px;
+    }
+
+    .jav .mike:first-child{
+        border: 0;
+        padding-left: 0;
+    }
+
+    .jav{
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    footer{
+        display: flex;
+        align-items: center;
+        background: var(--primary-color);
+        padding: 10px 50px;
+    }
+
+    .javv{
+        border: 0;
+        display: flex;
+        width: 40%;
+        place-content: space-around;
+    }
+
+    .javv a{
+        font-weight: bold;
+    }
+
+    .foot{
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .nav{
+        display: none;
+    }
+
+    .hidden{
+        display: flex;
+        background: var(--primary-color);
+        padding: 0 60px;
+    }
+
+    .nav-disp img{
+        display: none;
+    }
+
+    nav .nav-disp{
+        border-bottom: 5px solid #002140;
+        color: #ffffff;
+        transition: all 0.5s linear;
+        padding: 20px 20px 20px 10px ;
+    }
+
+    nav .nav-disp:hover{
+        border-bottom: 5px solid #e50914;
+    }
+
+    .text h1{
+        font-size: 55px;
+    }
+
+    .list h3{
+        font-size: 27px;
+    }
+
+    .third{
+        margin-top: 140px;
+        margin-right: 125px;
+        padding: 3% 5% 9% 5%;
+    }
+
+    .third img{
+        width: 68%;
+        top: -4em;
+        right: -4em;
+        box-shadow: 0 0;
+    }
+
+    .third p{
+        padding-top: 0;
+        padding-right: 70%;
+        line-height: 45px;
+        font-size: 30px;
+    }
+
+    .fourth h1{
+        font-size: 50px;
+        margin: 10px 0;
+    }
+
+    .fourth a{
+        font-size: 20px;
+    }
+
+    .fourth .only{
+        font-size: 28px;
+        margin: 35px 0;
+    }
+
+    .jav p{
+        font-size: 23px;
+        
+    }
+
+    .javv a{
+        font-size: 15px;
+        font-weight: lighter;
+    }
+
+    footer{
+        place-content: space-between;
+    }
+
+    .javv{
+        width: 50%;
+        place-content: none;
+    }
+
+    .foot{
+        width: 50%;
+    }
+
+    .lore{
+        display: block;
+        line-height: 30px;
+    }
+    
+    .port a:hover{
+        text-decoration: underline;
+    }
+    
+    .port p{
+        padding: 15px 30px;
+        border-bottom: 0;
+        padding-top: 15px;
+    }
+
+    .stress{
+        display: flex;
+        padding: 60px 40px;
+        place-content: space-between;
+    }
+
+    .stress div:nth-child(1){
+        width: 27%;
+    }
+
+    .stress div:nth-child(2){
+        width: 65%;
+        column-count: 2;
+    }
+    
+    .stress .box a{
+        font-size: 30px;
+    }
+
+    .stress .box{
+        box-shadow: 0 0;
+    }
+    
+    .port .under{
+        display: flex;
+        justify-content: left;
+        padding-right: 30px;
+        border-bottom: 0;
+    }
+    
+    .under p{
+        border: 0;
+    }
+    
+    .port .undered{
+        display: none;
+    }
+
+}
